@@ -1,0 +1,46 @@
+body{
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.orange-color{
+    color: rgb(255, 209, 125);
+    line-height: 0;
+}    
+h3{
+    letter-spacing: 5%;
+    line-height: 2.1;
+    padding:5px
+    
+}
+#left-margin{
+    border-left: 6px solid tomato;
+    border-radius: 2px;
+    font-size: 40px;
+    padding-left: 20px;
+    
+    
+}
+section{
+    display: flex;
+}
+.size{
+    width: 50%;
+    padding-left: 13%;
+    padding-top: 6%;
+}
+.size img{
+    width: 70%;
+}
+.explore{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,black);
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+
+}
+   
