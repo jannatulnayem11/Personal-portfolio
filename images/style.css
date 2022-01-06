@@ -17,10 +17,12 @@ p{
     
 }
 .left-margin{
-    border-left: 6px solid tomato;
-    border-radius: 2px;
-    font-size: 40px;
+    border-left: 6px solid;
+    border-radius: 5px;
+    font-size: 30px;
     padding-left: 20px;
+    border-image: linear-gradient(tomato,black);
+    border-image-slice: 2;
     
    
     
@@ -30,6 +32,8 @@ p{
 
 section{
     display: flex;
+    background-image: url(./shapes/shape-5.png);
+    background-repeat: no-repeat;
 }
 .size{
     width: 50%;
@@ -58,7 +62,7 @@ section{
     color: rgb(219, 139, 33);
 }
 .box-shadow{
-    box-shadow: 5px 5px rgb(255, 193, 142);
+    box-shadow: 5px 5px 50% rgb(255, 193, 142);
     width:30%;
     height: 28;
     margin-right: 5%;
@@ -176,7 +180,7 @@ section{
    
 
 }
-header{
+footer{
     background-color: black;
     margin-top: 10%;
     color: white;
