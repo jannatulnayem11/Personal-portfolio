@@ -7,7 +7,7 @@ body{
 }
 
 .orange-color{
-    color: rgb(255, 198, 93);
+    color: rgb(221, 149, 15);
     line-height: 0;
 }    
 p{
@@ -17,12 +17,16 @@ p{
     
 }
 .left-margin{
-    border-left: 6px solid;
-    border-radius: 5px;
-    font-size: 30px;
+    border-left: 8px solid;
+    border-radius: 10spx;
+   font-size: 30px;
     padding-left: 20px;
     border-image: linear-gradient(tomato,black);
     border-image-slice: 2;
+    background-image: url(./shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 100px 100px;
     
    
     
@@ -32,13 +36,15 @@ p{
 
 section{
     display: flex;
-    background-image: url(./shapes/shape-5.png);
-    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
+   
 }
 .size{
     width: 50%;
     padding-left: 13%;
     padding-top: 6%;
+    
 }
 .size img{
     width: 70%;
@@ -54,25 +60,53 @@ section{
 .center{ 
     font-size: 50px;
     text-align: center;
-    letter-spacing: 2%;
+    letter-spacing: 4%;
     
 } 
 .orange{
    
     color: rgb(219, 139, 33);
 }
-.box-shadow{
-    box-shadow: 5px 5px 50% rgb(255, 193, 142);
+.box-shadow-1{
+    box-shadow: 5px 5px  rgb(255, 193, 142);
     width:30%;
     height: 28;
     margin-right: 5%;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 3%;
      padding: 20px;
-    background-color: wheat;
+    background-color: #f5deb3;
     border-radius: 8%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   
+}
+.box-shadow-2{
+    box-shadow: 5px 5px rgb(255, 193, 142);
+    width:30%;
+    height: 28;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+     padding: 20px;
+    background-color: rgb(249, 181, 255);
+    border-radius: 8%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+}
+.box-shadow-3{
+    box-shadow: 7px 5px rgb(235, 148, 247);
+    width:30%;
+    height: 28;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+     padding: 20px;
+    background-color: rgb(176, 147, 255);
+    border-radius: 8%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .pic{
     width: 40%;
@@ -88,7 +122,7 @@ section{
     
 }
 .resize{
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 4%;
     line-height: 70px;
 }
@@ -96,6 +130,7 @@ section{
     width: 50%;
     padding-left: 13%;
     padding-top: 6%;
+    
    
     }
 .left-size img{
