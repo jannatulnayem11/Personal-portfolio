@@ -40,7 +40,7 @@ section{
 }
 .explore{
     text-decoration: none;
-    background-image: linear-gradient(rgb(88, 255, 219),rgb(255, 213, 213));
+   background-color: rgb(238, 141, 124);
     padding: 10px 40px;
     border-radius: 5px;
     
@@ -73,24 +73,29 @@ section{
     
 }
 .third-section{
-    margin-top: 50%;
+    
     padding-top: 3%;
     padding-left: 5%;
-    display: block;
+    text-align: justify;
+    font-size: 110%;
+    
     
 }
 .resize{
     font-size: 50px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 4%;
+    line-height: 70px;
 }
 .left-size{
     width: 50%;
     padding-left: 13%;
     padding-top: 6%;
-
-}
+   
+    }
 .left-size img{
     width: 400px;
 
+}
+.left-pad{
+    font-size: 110%;
 }
